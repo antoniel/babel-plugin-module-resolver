@@ -866,7 +866,7 @@ describe('module-resolver', () => {
     });
 
     describe('missing babelrc in path (uses cwd)', () => {
-      jest.mock('find-babel-config', () => ({
+      jest.mock('@antoniel/find-babel-config', () => ({
         sync: function findBabelConfigSync() {
           return { file: null, config: null };
         },

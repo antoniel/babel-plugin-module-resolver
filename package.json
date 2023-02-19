@@ -1,6 +1,6 @@
 {
-  "name": "babel-plugin-module-resolver",
-  "version": "5.0.0",
+  "name": "@antoniel/babel-plugin-module-resolver",
+  "version": "5.0.1",
   "main": "lib/index.js",
   "description": "Module resolver plugin for Babel",
   "repository": {
@@ -30,7 +30,7 @@
     "import"
   ],
   "dependencies": {
-    "find-babel-config": "^2.0.0",
+    "@antoniel/find-babel-config": "latest",
     "glob": "^8.0.3",
     "pkg-up": "^3.1.0",
     "reselect": "^4.1.7",

@@ -2,7 +2,7 @@ import fs from 'fs';
 import path from 'path';
 import { createSelector } from 'reselect';
 
-import findBabelConfig from 'find-babel-config';
+import findBabelConfig from '@antoniel/find-babel-config';
 import glob from 'glob';
 import pkgUp from 'pkg-up';
 
